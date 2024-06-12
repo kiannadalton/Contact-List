@@ -2,8 +2,7 @@ import React from "react";
 import ContactList from "./ContactList";
 
 
-
-export default function SelectedContact ({ contact }){
+export default function SelectedContact ({ ContactList.id }){
     const [selectedContactId, setSelectedContactId] = useState(ContactList);
 
 

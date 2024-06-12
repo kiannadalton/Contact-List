@@ -6,7 +6,7 @@ import SelectedContact from './components/SelectedContact';
 
 export default function App() {
 
-  const [selectedContactId, setSelectedContactId] = useState(null);
+  const [selectedContactId, setSelectedContactId] = useState(SelectedContact);
 
   return (
     
